@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Character Body
   - Player Head
+  - Entrance Door
+  - Female NPC
+  - Female NPC - Secretary
+  - Male NPC
+  - Male NPC - Secretary
   layers:
   - Default
   - TransparentFX

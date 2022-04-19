@@ -3,7 +3,12 @@ guid: ffd4d9176a752bd4daf70c63ce914271
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WomanCasual3Color
+    second: {fileID: 2800000, guid: 22255122d7c55ff4eb02b99da353e5e0, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
