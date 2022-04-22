@@ -19,7 +19,7 @@ public class EntranceDoorAnimationControl : MonoBehaviour
             StartDoorAnimations();
             
         }else if(Vector3.Distance(GameObject.FindGameObjectWithTag("Player").transform.position, transform.position) <= 10f && isDoorClosed == false) {
-            Debug.Log(Vector3.Distance(GameObject.FindGameObjectWithTag("Player").transform.position, transform.position));
+            //Debug.Log(Vector3.Distance(GameObject.FindGameObjectWithTag("Player").transform.position, transform.position));
             // StartCoroutine(;
             
         } else if(Vector3.Distance(GameObject.FindGameObjectWithTag("Player").transform.position, transform.position) >= 10f && isDoorClosed == false) {

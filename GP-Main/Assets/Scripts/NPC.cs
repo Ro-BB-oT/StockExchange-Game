@@ -7,7 +7,7 @@ public class NPC : MonoBehaviour
     // Start is called before the first frame update
     private Animator anim;
     private float force = 1f;
-    public float speed = 1f; 
+    public float speed = 5f; 
 
     public List<GameObject> pathTargets;
     public GameObject target;
@@ -165,7 +165,7 @@ IEnumerator moveNPC(){
         f =  Vector3.ClampMagnitude(f, 0.3f);
         //Debug.Log(f.y);
         //controller.Move(f * speed * Time.deltaTime);  
-        rb.MovePosition(transform.position + f * 5f * Time.fixedDeltaTime);
+        rb.MovePosition(transform.position + f * 10f * Time.fixedDeltaTime);
         Quaternion targetRotation = Quaternion.LookRotation(f.normalized);
         //Debug.Log(targetRotation);
         targetRotation = Quaternion.RotateTowards(transform.rotation, targetRotation, 360 * Time.fixedDeltaTime);

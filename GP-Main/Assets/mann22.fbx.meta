@@ -12,11 +12,76 @@ ModelImporter:
   - first:
       74: -6958339349050337799
     second: Armature|CameraPreset|Base stack|Layer0 (1)
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 00208_Quint009_std
+    second: {fileID: 2100000, guid: 0e22df3a8400c6a4ab265900baa75648, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 00218_Jon005_std
+    second: {fileID: 2100000, guid: 9c135309b9a6da44ba97e267a772be5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 00219_Paul008_std
+    second: {fileID: 2100000, guid: d12845cea2cae134b83fa673744fabf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 00246_Zeef006_std
+    second: {fileID: 2100000, guid: 636cda2ca7d652246a5c01837461cf1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 00256_Daud008_std
+    second: {fileID: 2100000, guid: 2d0f52a0312bed744a82c3d2cd5f2699, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #99
+    second: {fileID: 2100000, guid: 302553f1eee5aac4b8cb71483a5f5559, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 0723bfea2e5d5d64eb9c7f972776be03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pen Black
+    second: {fileID: 2100000, guid: a2d71b5d830e6834094abf33139c955b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pen Chrome
+    second: {fileID: 2100000, guid: 82ab5f60d7759144eafc2ae1f34d2cb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rp_eric_rigged_001_mat
+    second: {instanceID: 0}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rp_nathan_animated_003_mat
+    second: {fileID: 2100000, guid: ba9b9cc2337581244893214be0b15c32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wire_086086086
+    second: {fileID: 2100000, guid: 9b4dddeb83bf29248bd0c305989f9208, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wire_086086086.002
+    second: {fileID: 2100000, guid: 7e30d168a39382c4cbdbc1f49eae16ba, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
+    materialName: 2
+    materialSearch: 2
     materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
@@ -70,19 +135,19 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|CameraPreset|Base stack|Layer0
-      takeName: Armature|CameraPreset|Base stack|Layer0
+      name: Armature|Armature|Take 001|BaseLayer.001
+      takeName: Armature|Armature|Take 001|BaseLayer.001
       internalID: 0
-      firstFrame: 0
-      lastFrame: 360
+      firstFrame: 1.5
+      lastFrame: 68
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
