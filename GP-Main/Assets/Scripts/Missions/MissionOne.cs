@@ -46,7 +46,12 @@ public class MissionOne : Mission
                 //Debug.Log("RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR");
                 //return false;
             }
+            if(Vector3.Distance(player.transform.position,secretary.transform.position) > 7)
+            {
+                canvas.transform.GetChild(2).gameObject.transform.GetChild(0).gameObject.GetComponent<Text>().text = "";
+            }
              //return false;
+        
     }
     private void check2(GameObject player, GameObject secretary){
         if(Vector3.Distance(player.transform.position,secretary.transform.position) <= 7 && Input.GetKeyDown(KeyCode.E)){
@@ -59,6 +64,10 @@ public class MissionOne : Mission
             }else {
                 //Debug.Log("RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR");
                 //return false;
+            }
+            if(Vector3.Distance(player.transform.position,secretary.transform.position) > 7)
+            {
+                canvas.transform.GetChild(2).gameObject.transform.GetChild(0).gameObject.GetComponent<Text>().text = "";
             }
              //return false;
     }

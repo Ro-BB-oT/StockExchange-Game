@@ -6,10 +6,9 @@ using UnityEngine;
 
 public class NpcDialogue : ScriptableObject
 {
-    public new string name;
     [TextArea(3, 15)]
     public string[] dialogue;
-    [TextArea(3, 15)]
-    public string[] playerDialogue;
+    //[TextArea(3, 15)]
+    //public string[] playerDialogue;
 
 }
