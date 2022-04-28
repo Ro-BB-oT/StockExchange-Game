@@ -6,8 +6,8 @@ public class NPC : MonoBehaviour
 {
     // Start is called before the first frame update
     private Animator anim;
-    private float force = 1f;
-    public float speed = 5f; 
+    // private float force = 1f;
+    // public float speed = 5f; 
 
     public List<GameObject> pathTargets;
     public GameObject target;
