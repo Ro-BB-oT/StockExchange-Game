@@ -10,6 +10,17 @@
 [Ll]ogs/
 [Mm]emoryCaptures/
 
+
+
+
+GP-Main/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-8_9_0.so
+
+
+
+
+
+
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
@@ -57,4 +68,3 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-
